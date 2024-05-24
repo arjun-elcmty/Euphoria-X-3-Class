@@ -57,7 +57,7 @@ const Schedule = () => {
                     className="text-2xl font-medium mb-5 text-center"
                     data-aos="fade-up"
                     data-aos-duration="500">
-                    Jadwal PBB Hari Ini
+                    Jadwal Mata Pelajaran Hari Ini
                 </div>
                 {currentPiketNames && currentPiketNames.length > 0 ? (
                     currentPiketNames.map((piketName, index) => (
